@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write 'contracts/**/*.sol'",
+    "solidity:prettier": "prettier --write 'contracts/**/*.sol'",
     "coverage": "npx hardhat coverage  --testfiles \"test/\""
   },
   "author": "ask-ramsankar",
